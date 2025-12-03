@@ -21,3 +21,13 @@ moves may cross zero multiple times. For each move:
 
 You can run everything with:
 `cargo run`
+
+## Day 2
+
+This solution reads ranges from inputs/day02.txt and searches for
+invalid product IDs. An ID is invalid if it is made from a digit sequence
+repeated multiple times.
+
+For now the implementation uses straightforward string checks inside each
+range. It works but is not the most efficient approach and I plan to
+revisit this later to explore a cleaner method.
